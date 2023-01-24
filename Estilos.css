@@ -1,0 +1,9 @@
+*{margin: 0;}
+header{background-color:rgb(255, 248, 220) ; height: 150px; text-transform: capitalize;}
+ul li{display: inline-block; padding-left: 20px;}
+.barra{display:inline-block; font-size: 22px;} 
+.barra ul li{list-style: none;}
+#apa{width: 230px; height: 130px; text-align: right; padding-left: 180px;}
+.barra a:hover{ color: red;}
+.barra a{ text-decoration: none; color: black;}
+
