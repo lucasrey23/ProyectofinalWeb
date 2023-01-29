@@ -16,5 +16,7 @@ i{ color:black;font-size: 40px; padding-inline: 20px;}
 footer{ font-size: 25px; font-family: 'Oswald'; padding: 30px;}
 section{height:100px;background-color: firebrick}
 .bloque{height: 100vh; background-color:rgb(190, 145, 93)}
-#parrafo2{font-size: 28px; padding: 40px; font-family: 'Mukta'; color: black; }
+#parrafo2{font-size: 28px; padding: 40px; font-family: 'Mukta'; color: black; border-style: dashed; }
 #bloque2{background-color:rgb(190, 145, 93);}
+#bloque3{background-color:rgb(190, 145, 93);}
+#parrafo3{font-size: 28px; padding: 40px; font-family: 'Mukta'; color: black; border-style: dashed; }
