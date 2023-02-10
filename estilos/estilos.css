@@ -1,117 +1,120 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Chicle&family=DynaPuff:wght@500&family=Edu+QLD+Beginner&family=Fascinate&family=Fuzzy+Bubbles:wght@700&family=Gantari:wght@100&family=IBM+Plex+Sans:wght@100&family=Inter:wght@100&family=Kdam+Thmor+Pro&family=Kenia&family=Macondo&family=Mukta:wght@700&family=Nerko+One&family=Open+Sans:wght@300&family=Oswald:wght@400;700&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;1,100&family=Rubik+Moonrocks&family=Zen+Dots&display=swap");
+
 body {
-  background-color: aquamarine;
+    background-color: aquamarine;
 }
 
 /* font-family: 'Alkalami', serif;font-family: 'Chicle', cursive;font-family: 'DynaPuff', cursive;font-family: 'Edu QLD Beginner', cursive;font-family: 'Fascinate', cursive;font-family: 'Fuzzy Bubbles', cursive;font-family: 'Gantari', sans-serif;font-family: 'IBM Plex Sans', sans-serif;font-family: 'Inter', sans-serif;font-family: 'Kdam Thmor Pro', sans-serif;font-family: 'Kenia', cursive;font-family: 'Macondo', cursive;font-family: 'Mukta', sans-serif;font-family: 'Nerko One', cursive;font-family: 'Open Sans', sans-serif;font-family: 'Oswald', sans-serif;font-family: 'Poppins', sans-serif;font-family: 'Raleway', sans-serif;font-family: 'Rubik Moonrocks', cursive;font-family: 'Zen Dots', cursive; */
 * {
-  margin: 0;
+    margin: 0;
 }
 
 body {
-  background-color: firebrick;
+    background-color: firebrick;
 }
 
 header {
-  background-color: rgb(255, 248, 220);
-  height: 200px;
-  text-transform: capitalize;
+    background-color: rgb(255, 248, 220);
+    height: 200px;
+    text-transform: capitalize;
 }
 
 ul li {
-  display: inline-block;
-  padding-left: 20px;
+    display: inline-block;
+    padding-left: 20px;
 }
 
 .barra {
-  display: inline-block;
-  font-size: 22px;
-  padding-top: 50px;
-  font-family: Fuzzy Bubbles;
+    display: inline-block;
+    font-size: 22px;
+    padding-top: 50px;
+    font-family: Fuzzy Bubbles;
 }
 
 .barra ul li {
-  list-style: none;
+    list-style: none;
 }
 
 #apa {
-  width: 230px;
-  height: 160px;
+    width: 230px;
+    height: 160px;
 }
 
 .barra a:hover {
-  color: red;
+    color: red;
 }
 
 .barra a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 .titulo {
-  font-size: 45px;
-  font-family: "Chicle";
-  background-color: rgb(190, 145, 93);
-  padding: 15px;
+    font-size: 45px;
+    font-family: "Chicle";
+    background-color: rgb(190, 145, 93);
+    padding: 15px;
 }
 
 .parrafo {
-  font-size: 30px;
-  font-family: "Fuzzy Bubbles";
+    font-size: 30px;
+    font-family: "Fuzzy Bubbles";
 }
 
 .pie {
-  color: black;
+    color: black;
 }
 
 i {
-  color: black;
-  font-size: 40px;
-  padding-inline: 20px;
+    color: black;
+    font-size: 40px;
+    padding-inline: 20px;
 }
 
 footer {
-  font-size: 25px;
-  font-family: "Oswald";
-  padding: 30px;
+    font-size: 25px;
+    font-family: "Oswald";
+    padding: 30px;
 }
 
 section {
-  height: 100px;
-  background-color: firebrick;
+    height: 100px;
+    background-color: firebrick;
 }
 
 .bloque {
-  background-color: rgb(190, 145, 93);
+    background-color: rgb(190, 145, 93);
 }
 
 .parrafo2 {
-  font-size: 28px;
-  padding: 40px;
-  font-family: "Mukta";
-  color: black;
-  border-style: dashed;
+    font-size: 28px;
+    padding: 40px;
+    font-family: "Mukta";
+    color: black;
+    border-style: dashed;
 }
 
 .bloque2 {
-  background-color: rgb(190, 145, 93);
+    background-color: rgb(190, 145, 93);
 }
 
 .cabecera {
-  font-size: 25px;
-  font-family: "Zen Dots";
-  color: black;
+    font-size: 25px;
+    font-family: "Zen Dots";
+    color: black;
 }
 
 .libro1 {
-  font-size: 30px;
-  color: black;
-  font-family: "Mukta";
-  text-decoration: underline;
-  text-shadow: 10px 10px 5px black;
+    font-size: 30px;
+    color: black;
+    font-family: "Mukta";
+    text-decoration: underline;
+    text-shadow: 10px 10px 5px black;
 }
 
 .parrafo3 {
-  font-family: "Fuzzy Bubbles";
-  padding: 15px;
-}/*# sourceMappingURL=estilos.css.map */
+    font-family: "Fuzzy Bubbles";
+    padding: 15px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
