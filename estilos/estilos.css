@@ -8,10 +8,6 @@ body {
   margin: 0;
 }
 
-body {
-  background-color: firebrick;
-}
-
 header {
   background-color: rgb(255, 248, 220);
   height: 200px;
@@ -67,7 +63,7 @@ ul li {
 i {
   color: black;
   font-size: 40px;
-  padding-inline: 20px;
+  padding-top: 20px;
 }
 
 footer {
@@ -118,5 +114,61 @@ section {
 
 .link {
   text-decoration: none;
-  color: red;
+  color: firebrick;
+}
+
+.galeria {
+  height: auto;
+  width: 100%;
+  background-color: rgb(190, 145, 93);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 750px);
+  grid-gap: 25px;
+  padding: 25px;
+}
+
+.grid {
+  border: 3px solid black;
+  background-size: 600px;
+  background-position: center;
+}
+
+.grid1 {
+  background-image: url(../img/descarga.jfif);
+}
+
+.grid2 {
+  background-image: url(../img/fan2.jfif);
+}
+
+.grid3 {
+  background-image: url(../img/fan3.jfif);
+}
+
+.grid4 {
+  background-image: url(../img/fan4.jfif);
+}
+
+.grid5 {
+  background-image: url(../img/fan5.jfif);
+}
+
+.grid6 {
+  background-image: url(../img/fan6.jfif);
+}
+
+.grid7 {
+  background-image: url(../img/fan7.jfif);
+}
+
+.grid8 {
+  background-image: url(../img/Avatar\ Roku\ Meditating\ by\ YondaimeMinato4\ on\ DeviantArt.png);
+}
+
+@media only screen and (min-width: 350px) and (max-width: 890px) {
+  .galeria {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 750px);
+  }
 }/*# sourceMappingURL=estilos.css.map */
