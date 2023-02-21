@@ -10,8 +10,12 @@ body {
 
 header {
   background-color: rgb(255, 248, 220);
-  height: 200px;
+  height: auto;
   text-transform: capitalize;
+}
+
+.avatar {
+  padding: 15px;
 }
 
 ul li {
@@ -23,7 +27,7 @@ ul li {
   display: inline-block;
   font-size: 22px;
   padding-top: 50px;
-  font-family: Fuzzy Bubbles;
+  font-family: "Fuzzy Bubbles";
 }
 
 .barra ul li {
@@ -73,7 +77,7 @@ footer {
 }
 
 section {
-  height: 100px;
+  height: auto;
   background-color: firebrick;
 }
 
@@ -164,6 +168,10 @@ section {
 
 .grid8 {
   background-image: url(../img/Avatar\ Roku\ Meditating\ by\ YondaimeMinato4\ on\ DeviantArt.png);
+}
+
+.h1 {
+  font-family: "Fuzzy Bubbles";
 }
 
 @media only screen and (min-width: 350px) and (max-width: 890px) {
