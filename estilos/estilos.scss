@@ -6,26 +6,28 @@ $rojo:firebrick;
 $marron: rgb(190, 145, 93);
 $letra1: 'Fuzzy Bubbles';
 $negro: black;
+$letra2: 'Chicle';
 header{background-color:rgb(255, 248, 220) ; height:auto;  text-transform: capitalize;}
 .avatar{padding: 15px;}
 ul li{display: inline-block; padding-left: 20px;}
-.barra{display:inline-block; font-size: 22px; padding-top: 50px; font-family:$letra1} 
+.barra{display:inline-block; font-size: 32px; padding-top: 30px; font-family:$letra1} 
 .barra ul li{list-style: none;}
-#apa{width: 230px; height: 160px;}
 .barra a:hover{ color: red;}
 .barra a{ text-decoration: none; color: $negro;}
-.titulo{ font-size: 45px; font-family: 'Chicle'; background-color:$marron; padding: 15px;}
+.titulo{ font-size: 45px; font-family:$letra2; background-color:$marron; padding: 15px;}
 .parrafo{ font-size: 30px;font-family: $letra1;}
 .pie{color: $negro;}
-i{ color:$negro;font-size: 40px; padding-top: 20px;}
-footer{ font-size: 25px; font-family: 'Oswald'; padding: 30px;}
+i{ color:$negro; font-size: 60px; padding: 15px;}
+i:hover{color: white;}
+footer{ font-size: 35px; font-family:$letra2 ;color: $negro; padding-top: 15px ;}
 section{height:auto;background-color: $rojo}
 .bloque{ background-color:$marron}
-.parrafo2{font-size: 28px; padding: 40px; font-family: 'Mukta'; color: $negro; border-style: dashed; }
+.parrafo2{font-size: 28px; padding: 40px; font-family:$letra1; color: $negro; border-style: dashed; }
 .bloque2{background-color:$marron;}
-.cabecera{font-size: 25px; font-family: 'Zen Dots'; color: $negro;}
-.libro1{font-size: 30px; color: $negro; font-family: 'Mukta'; text-decoration: underline; text-shadow:10px 10px 5px $negro }
+.cabecera{font-size: 35px; font-family:$letra2; color: $negro;}
+.libro1{font-size: 30px; color: $negro; font-family:$letra1; text-decoration: underline; text-shadow:10px 10px 5px $negro }
 .parrafo3{font-family: $letra1; padding: 15px;}
+.imagenes{padding: 15px; }
 .link{text-decoration: none; color:$rojo}
 .galeria{ height: auto;
 width: 100%; background-color: $marron; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: repeat(4, 750px); grid-gap: 25px; padding:25px;}

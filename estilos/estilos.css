@@ -25,18 +25,13 @@ ul li {
 
 .barra {
   display: inline-block;
-  font-size: 22px;
-  padding-top: 50px;
+  font-size: 32px;
+  padding-top: 30px;
   font-family: "Fuzzy Bubbles";
 }
 
 .barra ul li {
   list-style: none;
-}
-
-#apa {
-  width: 230px;
-  height: 160px;
 }
 
 .barra a:hover {
@@ -66,14 +61,19 @@ ul li {
 
 i {
   color: black;
-  font-size: 40px;
-  padding-top: 20px;
+  font-size: 60px;
+  padding: 15px;
+}
+
+i:hover {
+  color: white;
 }
 
 footer {
-  font-size: 25px;
-  font-family: "Oswald";
-  padding: 30px;
+  font-size: 35px;
+  font-family: "Chicle";
+  color: black;
+  padding-top: 15px;
 }
 
 section {
@@ -88,7 +88,7 @@ section {
 .parrafo2 {
   font-size: 28px;
   padding: 40px;
-  font-family: "Mukta";
+  font-family: "Fuzzy Bubbles";
   color: black;
   border-style: dashed;
 }
@@ -98,21 +98,25 @@ section {
 }
 
 .cabecera {
-  font-size: 25px;
-  font-family: "Zen Dots";
+  font-size: 35px;
+  font-family: "Chicle";
   color: black;
 }
 
 .libro1 {
   font-size: 30px;
   color: black;
-  font-family: "Mukta";
+  font-family: "Fuzzy Bubbles";
   text-decoration: underline;
   text-shadow: 10px 10px 5px black;
 }
 
 .parrafo3 {
   font-family: "Fuzzy Bubbles";
+  padding: 15px;
+}
+
+.imagenes {
   padding: 15px;
 }
 
